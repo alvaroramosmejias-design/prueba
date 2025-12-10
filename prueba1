@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web Muy Simple</title>
+    <style>
+        /* Estilos CSS para centrar y dar tamaño */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Centra el texto y elementos inline */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centra los elementos flexibles (el título y la imagen) */
+            justify-content: center;
+            min-height: 100vh; /* Asegura que ocupe al menos la altura de la ventana */
+            background-color: #f4f4f4; /* Fondo suave */
+        }
+
+        h1 {
+            font-size: 3em; /* Título principal grande */
+            color: #333;
+            margin-bottom: 30px; /* Espacio debajo del título */
+        }
+
+        .imagen-principal {
+            max-width: 80%; /* La imagen ocupará hasta el 80% del ancho de la web */
+            height: auto;
+            border: 5px solid #555; /* Un borde para que destaque */
+            border-radius: 10px; /* Esquinas redondeadas */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mi Título Principal y Enorme</h1>
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsSc1cGWmCoNckjeFCl_qF9LbSnFXnMn4Rox2xFw_3_eVwZUHlJSl3a2X2t4V9NXp7LTPPNzEwgl8TPXbtPMtYUWP4wouyEpXSmYRw3_gkKUNJwiXJecsrab7z-MjvrP2SWo16hDWSy7o/s1600/8+gorilas+peinetas.jpg" alt="Descripción de la imagen" class="imagen-principal">
+
+</body>
+</html>
